@@ -24,7 +24,7 @@ block content
           p Estimated Value: #{relic.ev}$
 
           // Button that calls buy() function with the index of the relic
-          button(type="button", class="btn btn-outline-success", onclick=`buy(${index})`) Purchase
+          button(type="button", class="btn btn-outline-success", onclick=`buy(${index +1})`) Purchase
 
   // Script to define the buy() function
   script.
